@@ -1,3 +1,11 @@
+# Clock_skew.py
+# Author: 5epi0l
+# Date: 16/11/2025
+# License: MIT
+# Description: 
+
+
+
 import requests
 import os
 import argparse
