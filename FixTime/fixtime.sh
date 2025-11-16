@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Author : PaiN05
+# Date: 16/11/25
 
 # --- CONFIGURATION ---
 WINRM_PORT="5985"

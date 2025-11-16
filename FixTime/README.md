@@ -1,3 +1,6 @@
+
+---
+
 # **TimeFix – Kerberos Clock Skew Auto-Fix Toolkit**
 
 When attacking Windows domains (WinRM, Kerberos auth, Impacket, Evil-WinRM, etc.), you may hit the classic:
@@ -30,13 +33,13 @@ Perfect for pentesters doing Kerberos-based operations where precise time alignm
 ### **Bash Version**
 
 ```bash
-sudo ./fixtime <IP>
+sudo ./timefix <IP>
 ```
 
 Example:
 
 ```bash
-sudo ./fixtime 10.10.10.5
+sudo ./timefix 10.10.10.5
 ```
 
 ---
@@ -44,13 +47,13 @@ sudo ./fixtime 10.10.10.5
 ### **Python Version**
 
 ```bash
-python3 fixtime.py -u <IP>
+python3 timefix.py -u <IP>
 ```
 
 Example:
 
 ```bash
-python3 fixtime.py -u http://10.10.10.5
+python3 timefix.py -u 10.10.10.5
 ```
 
 ---
@@ -62,3 +65,6 @@ These scripts are designed for lab, CTF, and penetration-testing environments wh
 * Kerberos authentication breaks due to clock skew
 * NTP is disabled or not configurable
 * You need a fast, reliable way to sync with the target host
+
+---
+
