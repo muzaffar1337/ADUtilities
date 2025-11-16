@@ -36,7 +36,7 @@ sudo ./timefix <IP>
 Example:
 
 ```bash
-sudo ./timefix 10.10.10.5
+sudo ./fixtime 10.10.10.5
 ```
 
 ---
@@ -44,13 +44,13 @@ sudo ./timefix 10.10.10.5
 ### **Python Version**
 
 ```bash
-python3 timefix.py -u <IP>
+python3 fixtime.py -u <IP>
 ```
 
 Example:
 
 ```bash
-python3 timefix.py -u http://10.10.10.5
+python3 fixtime.py -u http://10.10.10.5
 ```
 
 ---
